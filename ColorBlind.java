@@ -13,7 +13,7 @@ public class ColorBlind{
 
     //read image in from file
     try{
-    	pic = ColorBlind.class.getResourceAsStream("/IMG_2647.JPG");
+    	pic = ColorBlind.class.getResourceAsStream("IMG_2647.JPG");
       //file = new File("/Users/samibialozynski/Desktop/Unknown.jpeg");
     	image = ImageIO.read(pic);
     }catch(IOException e){
